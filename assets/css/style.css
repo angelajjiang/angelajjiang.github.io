@@ -38,8 +38,8 @@ a {
 }
 .icons {
     position: absolute;
-    right: 150px;
-    bottom: 40px;
+    right: 10%;
+    bottom: 1%;
 }
 .icon {
     width: 100px;
@@ -65,7 +65,7 @@ a {
 .greeting {
   position: absolute;
   align-items: center;
-  top: 300px;
+  top: 30%;
 }
 .about {
   position: relative;
