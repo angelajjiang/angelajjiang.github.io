@@ -3,11 +3,11 @@ body {
     text-align: left;
     font-family: 'Dekko', cursive !important;
 }
-h1, h2, h3 {
+h1, h3 {
     color: black;
     font-family: 'Dekko', cursive;
 }
-p {
+h2, p {
     color: black;
     font-family: 'Montserrat', sans-serif !important;
 }
@@ -53,8 +53,8 @@ a {
   flex-direction: row;
   align-items: right;
   align-content: space-between;
-  top: 30px;
-  right: 40px;
+  top: 20px;
+  right: 20px;
 }
 .nav-item {
   position: relative;
@@ -65,11 +65,27 @@ a {
   text-decoration: none;
 }
 .greeting {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  top: 30%;
+  margin: 40px;
+}
+.greeting-text {
   position: absolute;
   align-items: center;
-  margin: 40px;
-  padding: 20px;
-  top: 30%;
+  justify-content: center;
+  padding: 30px;
+  padding-bottom: 20px;
+}
+#hi-underline {
+  position: relative;
+  top: 80px;
+  left: 10px;
+  height: 20px;
+  width: 240px;
+  border-radius: 30px;
+  background: #e0fff7;
 }
 .about {
   position: relative;
