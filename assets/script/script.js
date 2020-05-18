@@ -25,6 +25,16 @@ function unhideLightbox4() {
 }
 document.getElementById("dss").onclick = unhideLightbox4;
 
+function unhideLightbox5() {
+	unhideLightbox("cody-pic");
+}
+document.getElementById("cody").onclick = unhideLightbox5;
+
+function unhideLightbox6() {
+	unhideLightbox("bm-pic");
+}
+document.getElementById("bm").onclick = unhideLightbox6;
+
 function closeLightbox(lightboxID) {
 	document.getElementById('lightbox-overlay').classList.add('hidden');
 	document.getElementById(lightboxID).classList.add('hidden')
